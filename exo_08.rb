@@ -1,7 +1,7 @@
 puts "Veuillez saisir un numéro "
 n = gets.chomp.to_i
-  total = n
+  cmpt = n
   n.times do
-  total -= 1
-  puts total
+  cmpt -= 1
+  puts cmpt
   end
